@@ -1,4 +1,4 @@
-# Missionaries and Cannibals Problem(023-352)
+# Missionaries and Cannibals Problem(023-366)
 from collections import deque
 class MissionariesCannibals:
     def __init__(self, initial_state, goal_state):
@@ -102,5 +102,6 @@ if __name__ == "__main__":
         M_right = 3 - M_left
         C_right = 3 - C_left
         print(f"Step {i}: Left(M={M_left},C={C_left}) Right(M={M_right},C={C_right}) Boat={boat}")
+
 
     print("\n GOAL ACHIEVED \n")
