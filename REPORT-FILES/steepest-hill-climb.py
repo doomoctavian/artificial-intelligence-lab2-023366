@@ -1,5 +1,5 @@
 
-# Steepest-Ascent Hill Climbing for 8-Puzzle(023-352)
+# Steepest-Ascent Hill Climbing for 8-Puzzle(023-366)
 
 
 import copy
@@ -79,4 +79,5 @@ if __name__ == "__main__":
     if heuristic(path[-1]) == 0:
         print("Goal state reached!")
     else:
+
         print("Stopped at local maximum (goal not reached).")
