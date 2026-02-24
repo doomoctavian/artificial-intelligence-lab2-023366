@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Heuristic Function(023-352)
+# Tic-Tac-Toe Heuristic Function(023-366)
 def heuristic(board, player):
     opponent = 'O' if player == 'X' else 'X'
 
@@ -31,4 +31,5 @@ if __name__ == "__main__":
     player = 'X'
 
     h_value = heuristic(board, player)
+
     print(f"Heuristic value e(P) for player {player}: {h_value}")
