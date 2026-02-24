@@ -1,5 +1,5 @@
 
-#Effect of Temperature(023-352)
+#Effect of Temperature(023-366)
 
 import math
 
@@ -30,4 +30,5 @@ if __name__ == "__main__":
     for step in range(6):
         prob = acceptance_probability(delta_E, T)
         print(f"{T:10.2f} | {prob:.6f}")
+
         T = temperature_schedule(T)
