@@ -1,4 +1,4 @@
-# Water Jug Problem using DFS and BFS(023-352)
+# Water Jug Problem using DFS and BFS(023-366)
 
 from collections import deque
 
@@ -104,4 +104,5 @@ if __name__ == "__main__":
     print("\nDFS Solution Path:")
     dfs_path = dfs(problem)
     for step in dfs_path:
+
         print(step)
