@@ -1,4 +1,4 @@
-# using A* algorithm(023-352)
+# using A* algorithm(023-366)
 import heapq
 class PuzzleSolver:
     def __init__(self, start, goal):
@@ -107,4 +107,5 @@ if __name__ == "__main__":
     
     solution = solver.solve()
     if solution:
+
         solver.print_solution(solution)
