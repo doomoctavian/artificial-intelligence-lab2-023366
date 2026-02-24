@@ -1,4 +1,4 @@
-# model based agent(023-352)
+# model based agent(023-366)
 
 rooms = {
     "A": "Dirty",
@@ -44,4 +44,5 @@ while True:
 #A model-based agent is better because it can remember things.
 #It knows which room is clean and which one is dirty.
 #So, it does not waste time moving again and again.
+
 #Because of this, the agent works more efficiently and gives better performance, especially in complex situations.
