@@ -1,5 +1,5 @@
 
-# Blocks World Heuristic Calculation (023-352)
+# Blocks World Heuristic Calculation (023-366)
 
 def calculate_heuristic(state, goal):
     goal_support = {}
@@ -30,4 +30,5 @@ if __name__ == "__main__":
     goal_state = [['A', 'B', 'C']]
 
     h_value = calculate_heuristic(initial_state, goal_state)
+
     print(f"Heuristic value E(P) for the current state: {h_value}")
